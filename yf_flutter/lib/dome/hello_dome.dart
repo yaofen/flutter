@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/material.dart';
 
 class Hello extends StatelessWidget {
@@ -7,7 +5,7 @@ class Hello extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'heloo',
+        'hello world',
         textDirection: TextDirection.ltr,
       ),
     );
